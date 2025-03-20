@@ -29,7 +29,10 @@ body {
     and use it in your business card.
      */
 }
-
+img{
+    width: 100px;
+    height:100px;
+}
 .border-blue {
     border: 1px dotted lightskyblue;
     border-radius: 12px;
