@@ -31,7 +31,15 @@ body {
 }
 
 .border-blue {
-    border: 1px dotted blue;
+    border: 1px dotted lightskyblue;
+    border-radius: 12px;
+    box-shadow: inset;
+    
+}
+@media (hover: hover) {
+  a:hover {
+    background: yellow;
+  }
 }
 
 /*
@@ -45,3 +53,4 @@ the design of your business card, e.g.:
 - hover effects  🤯🤯
 - animations     🤯🤯🤯
 */
+
