@@ -58,5 +58,5 @@ the design of your business card, e.g.:
 
 #bcard{
   display: block;
-  
+  text-align: center;
 }
