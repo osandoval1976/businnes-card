@@ -11,6 +11,7 @@ body {
 .avatar {
     width: 100%;
     height: auto;
+    padding: 5PX;
 }
 
 .card {
@@ -38,7 +39,7 @@ body {
     
 }
 @media (hover: hover) {
-  a:hover {
+    span:hover {
     background: yellow;
   }
 }
@@ -53,4 +54,4 @@ the design of your business card, e.g.:
 - shadows        🤯
 - hover effects  🤯🤯
 - animations     🤯🤯🤯
-*/
+*
