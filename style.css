@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-    width: 1200px;
+    width: 400px;
     margin: 0 auto;
     padding: 40px, 40px;
     display: flex;
@@ -40,7 +40,7 @@ body {
 }
 @media (hover: hover) {
     span:hover {
-    background: rgb(77, 77, 4);
+   text-decoration: rgb(77, 77, 4);
   }
 }
 
@@ -56,7 +56,7 @@ the design of your business card, e.g.:
 - animations     🤯🤯🤯
 */
 
-b.card{
+#bcard{
   display: block;
   
 }
