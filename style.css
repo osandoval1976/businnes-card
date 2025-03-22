@@ -40,7 +40,8 @@ body {
 }
 @media (hover: hover) {
     span:hover {
-   text-decoration:underline rgb(77, 77, 4);
+   text-decoration:underline;
+   text-shadow:  rgb(24, 168, 179);
   }
 }
 
@@ -60,4 +61,8 @@ the design of your business card, e.g.:
   display: block;
   text-align: center;
   background:#ddebf8 ;
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px, 40px;
+  border-bottom: 6px solid #d8cefe
 }
