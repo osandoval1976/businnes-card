@@ -40,7 +40,7 @@ body {
 }
 @media (hover: hover) {
     span:hover {
-    background: yellow;
+    background: rgb(77, 77, 4);
   }
 }
 
@@ -59,25 +59,4 @@ the design of your business card, e.g.:
 b.card{
   display: flex;
   
-}
-.bcard{
-
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: 3;
-  animation-direction: alternate;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-
-
 }
