@@ -17,7 +17,7 @@ body {
 .card {
     width: 400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px, 10px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -54,4 +54,27 @@ the design of your business card, e.g.:
 - shadows        🤯
 - hover effects  🤯🤯
 - animations     🤯🤯🤯
-*
+*/
+
+
+.bcard{
+
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+
+}
